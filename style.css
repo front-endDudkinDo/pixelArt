@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title_practice_js {
+  font-size: 40px;
+  line-height: 40px;
+  color: #ffff00;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.title_task {
+  font-size: 30px;
+  color: #ffff00;
+}
+
+.virtual_keyboard {
+  max-width: 1000px;
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.pixel_art {
+  background-color: #242121;
+  text-align: center;
+  padding: 30px;
+}
+
+.chosen-color {
+  outline: #c4c478;
+  font-size: 20px;
+  background-color: #ffff00;
+  margin-right: 15px;
+}
+
+.eraser_label {
+  font-size: 18px;
+  color: #ffff00;
+}
+
+.eraser {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.my_checkbox {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: url(./img/no-checkbox.png) no-repeat;
+  margin-top: 5px;
+}
+
+.eraser:checked + .my_checkbox {
+  background: url(./img/yes-checkbox.png) no-repeat;
+}
+
+.pixels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #333a48;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
